@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: b
+}
+.clearfix:after{
+  clear:both;
+}
+.top{
+  height: 600px;
+  background-color: rgba(1, 188,212, 1);
+}
+.bottom{
+  height: 600px;
+  background-color: #eee;
+}
+.post-body, .comment-box{
+  background-color: #fff;
+  width: 600px;
+  height: 300px;
+  margin: 60px auto;
+  box-shadow: rgba(0,0,0,0.117647) 0px 1px 6px,
+}
+.post-body{
+  position: relative;
+}
